@@ -1,0 +1,14 @@
+{
+  "name": "fireblocks",
+  "version": "1.0.0",
+  "description": "This is my home assignment from FireBlocks company ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey Ben",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0"
+  }
+}

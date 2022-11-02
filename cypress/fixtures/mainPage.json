@@ -1,0 +1,26 @@
+{
+  "numbers": {
+    "zero": "#Btn0",
+    "one": "#Btn1",
+    "two": "#Btn2",
+    "three": "#Btn3",
+    "four": "#Btn4",
+    "six": "#Btn6"
+  },
+  "operators": {
+    "plus": "#BtnPlus",
+    "minus": "#BtnMinus",
+    "equal": "#BtnCalc",
+    "multiply":"#BtnMult"
+  },
+  "history" : {
+    "history_frame_result": "#histframe > ul > li > p",
+    "history_dropdown": "#hist > button",
+    "history_frame_lines": "#histframe > ul > li"
+  },
+  "result": "#result",
+  "left_bracket": "#BtnParanL",
+  "right_bracket": "#BtnParanR",
+  "sinus": "#BtnSin",
+  "clear" : "#BtnClear"
+}
