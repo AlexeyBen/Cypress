@@ -1,10 +1,10 @@
 {
-  "name": "fireblocks",
+  "name": "CypressProject",
   "version": "1.0.0",
-  "description": "This is my home assignment from FireBlocks company ",
+  "description": "Cypress tests on https://web2.0calc.com/ ",
   "main": "index.js",
   "scripts": {
-    "test": "cypress/e2e/FireBlocksAssignment.cy.js"
+    "test": "cypress/e2e/WebCalc.js"
   },
   "author": "Alexey Ben",
   "license": "ISC",
