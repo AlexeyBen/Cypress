@@ -8,7 +8,7 @@ beforeEach(() => {
     cy.get(calc.clear).click()
 })
 
-describe('Alexey Ben`s home assignment from fireblocks. I found three possible ways to validate the result of the equations and decided to show all of them', () => {
+describe('I found three possible ways to validate the result of the equations and decided to show all of them', () => {
     it('Validation of mathematical  formula: "4 + 1 = 5" ', function () {
         const expectedResult = 4 + 1
         inputFormulaWithInterception(["four", "plus", "one"], {
@@ -32,7 +32,7 @@ describe('Alexey Ben`s home assignment from fireblocks. I found three possible w
         cy.get(calc.history_frame_result).invoke('attr', 'title').should("not.equal", expectedResult.toString())
     });
 
-    it(' Validation of mathematical  formula:"sin(30) = 0.5"', function () {
+    it.only(' Validation of mathematical  formula:"sin(30) = 0.5"', function () {
         const expectedResult = Math.round(Math.sin(30 * Math.PI / 180.0) * 10) / 10
         inputFormula(["sinus", "three", "zero", "right_bracket"], true)
         cy.get(calc.result).invoke('attr', 'title').should("equal", expectedResult.toString())

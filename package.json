@@ -4,7 +4,7 @@
   "description": "Cypress tests on https://web2.0calc.com/ ",
   "main": "index.js",
   "scripts": {
-    "test": "cypress/e2e/WebCalc.js"
+    "test": "cypress/e2e/WebCalc.cy.js"
   },
   "author": "Alexey Ben",
   "license": "ISC",
